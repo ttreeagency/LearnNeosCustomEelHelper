@@ -1,0 +1,6 @@
+'Ttree.LearnNeosCustomEelHelper:WeatherToday':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Weather Today'
+    group: 'plugins'

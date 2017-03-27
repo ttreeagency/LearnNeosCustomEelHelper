@@ -1,0 +1,9 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Ttree.LearnNeosCustomEelHelper: true
+
+  Fusion:
+    defaultContext:
+      Weather: Ttree\LearnNeosCustomEelHelper\Eel\Helper\WeatherHelper

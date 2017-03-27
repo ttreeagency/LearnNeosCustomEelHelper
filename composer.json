@@ -1,0 +1,19 @@
+{
+    "name": "ttree/learnneoscustomeelhelper",
+    "description": "Learn Neos: Create custom EEL helper to integrate internal or external services",
+    "type": "neos-package",
+    "require": {
+        "neos/neos": "^3.0.0",
+        "ttree/untilmidnight": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\LearnNeosCustomEelHelper\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.LearnNeosCustomEelHelper"
+        }
+    }
+}

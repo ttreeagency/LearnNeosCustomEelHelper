@@ -1,0 +1,11 @@
+prototype(Ttree.LearnNeosCustomEelHelper:WeatherToday) {
+    data = ${Weather.today()}
+
+    today = ${Date.format(this.data.today, 'D d')}
+
+    @cache {
+        mode = 'cached'
+
+        maximumLifetime = Ttree.UntilMidnight:Seconds
+    }
+}
